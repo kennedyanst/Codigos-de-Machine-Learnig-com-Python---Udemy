@@ -22,4 +22,4 @@ cm = ConfusionMatrix(rede_neural_credit)
 cm.fit(X_credit_treinamento, y_credit_treinamento)
 cm.score(X_credit_teste, y_credit_teste)
 
-print(classification_report(y_credit_teste, previsoes)) #Obs: Estou de pau duro com esse resultado...
+print(classification_report(y_credit_teste, previsoes)) 
