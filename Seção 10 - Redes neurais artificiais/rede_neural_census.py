@@ -1,9 +1,8 @@
 import pickle
-import sklearn
 from sklearn.neural_network import MLPClassifier
 
 
-with open("census.pkl", "rb") as f:
+with open("../census.pkl", "rb") as f:
     X_census_treinamento, y_census_treinamento, X_census_teste, y_census_teste = pickle.load(f)
 
 X_census_treinamento.shape, y_census_treinamento.shape

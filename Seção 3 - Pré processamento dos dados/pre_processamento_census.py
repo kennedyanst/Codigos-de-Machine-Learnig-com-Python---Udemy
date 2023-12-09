@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 #Impostação da base census
-base_census = pd.read_csv("census.csv")
+base_census = pd.read_csv("../census.csv")
 base_census.describe() #Dados estatisticos
 base_census.isnull().sum() #VERIFICAR SE EXISTE VALORES FALTANTES 
 
