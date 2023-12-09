@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from yellowbrick.classifier import ConfusionMatrix
 
 #Abrindo o arquivo ja Pré-processado
-with open("census.pkl", "rb") as f:
+with open("../census.pkl", "rb") as f:
     X_census_treinamento, y_census_treinamento, X_census_teste, y_census_teste = pickle.load(f)
 
 X_census_treinamento.shape, y_census_treinamento.shape
